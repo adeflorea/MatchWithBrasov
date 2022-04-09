@@ -1,9 +1,13 @@
-$green: #1b8a26;
-$emerald: #51c56a;
-$light-blue: #A0EADE;
-$dark-blue: #646f8d;
-$space: #232e47;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Roboto+Slab&display=swap');
+
+$green: #1b8a26 !global;
+$emerald: #51c56a !global;
+$light-blue: #A0EADE !global;
+$dark-blue: #646f8d !global;
+$space: #232e47 !global;
 
 html {
     background-color: $space;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto Slab', serif;
 }

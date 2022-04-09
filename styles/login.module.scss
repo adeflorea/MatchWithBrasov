@@ -1,0 +1,17 @@
+$green: #1b8a26 !global;
+$emerald: #51c56a !global;
+$light-blue: #A0EADE !global;
+$dark-blue: #646f8d !global;
+$space: #232e47 !global;
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: $space;
+}
+
+.mainform {
+    border-radius: 15px;
+}
