@@ -24,7 +24,6 @@ export default function Home() {
           Site-ul nostru foloseste de un chestionar pentru a te conecta cu activitatile din jurul tau.
         </p>
       </TextBox>
-      <Footer />
     </>
   )
 }
