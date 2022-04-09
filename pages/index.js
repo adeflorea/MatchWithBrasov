@@ -1,6 +1,8 @@
 import NavBar from "../components/NavBar/NavBar"
-import Carousel from "../components/ImageCarousel/ImageCarousel"
 import ImageCarousel from "../components/ImageCarousel/ImageCarousel"
+import TextBox from "../components/TextBox/TextBox"
+import Footer from "../components/Footer/Footer"
+import style from "./../styles/index.module.scss"
 
 export default function Home() {
   return (
@@ -14,10 +16,15 @@ export default function Home() {
         "images/carusel5.jpeg",
         "images/carusel6.jpeg"
       ]} />
-      <p>MatchWithBrasov este un site creat pentru a facilita descoperirea si participarea la evenimente de divertisment in Brasov.
-        Astfel, cu ajutorul nostru poti gasi activitati si obiective turistice de interes din jurul tau.
-        Site-ul nostru foloseste de un chestionar pentru a te conecta cu activitatile din jurul tau.
-      </p>
+
+      <TextBox>
+        <p className={style.text}>
+          MatchWithBrasov este un site creat pentru a facilita descoperirea si participarea la evenimente de divertisment in Brasov.
+          Astfel, cu ajutorul nostru poti gasi activitati si obiective turistice de interes din jurul tau.
+          Site-ul nostru foloseste de un chestionar pentru a te conecta cu activitatile din jurul tau.
+        </p>
+      </TextBox>
+      <Footer />
     </>
   )
 }
